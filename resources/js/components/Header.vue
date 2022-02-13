@@ -3,11 +3,14 @@
 		<div class="container">
 			<img src="../assets/dc-logo.png" alt="">
 			<ul>
-				<li  v-for = "(link,index) in links"
-				:key="index"
-				>
-				<a :class="{active: index === 1}" href="">{{link}}</a>
-
+				<li>
+					<a class="active" href="">Home</a>
+				</li>
+				<li>
+					<a class="" href="">Shop</a>
+				</li>
+				<li>
+					<a class="" href="">About</a>
 				</li>
 				
 			</ul>
@@ -20,19 +23,7 @@ export default {
 	name:'Header',
 	data() {
 	return {
-		links: 
-			[
-				"characters",
-				"comics",
-				"movies",
-				"tv",
-				"games",
-				"collectibles",
-				"videos",
-				"fans",
-				"news",
-				"shop",
-			],
+	
 		}
 	}
 }
