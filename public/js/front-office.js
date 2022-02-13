@@ -291,7 +291,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".footer[data-v-61a7c374] {\n  background-color: #333333;\n  border-top: solid 17px #0282f9;\n  padding: 30px 0;\n}\n.footer .footer__container[data-v-61a7c374] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n@media screen and (max-width: 542px) {\n.footer .footer__container[data-v-61a7c374] {\n    flex-direction: column;\n}\n}\n.footer .sign-up a[data-v-61a7c374] {\n  font-size: 17px;\n  text-transform: uppercase;\n  color: #fff;\n  text-decoration: none;\n  padding: 15px 14px;\n  border: 2px solid #0282f9;\n  transition: all ease-in 0.2s;\n}\n.footer .sign-up a[data-v-61a7c374]:hover {\n  background-color: #0282f9;\n}\n.footer .social[data-v-61a7c374] {\n  display: flex;\n  align-items: center;\n}\n@media screen and (max-width: 632px) {\n.footer .social[data-v-61a7c374] {\n    flex-direction: column;\n}\n}\n.footer .social__text[data-v-61a7c374] {\n  margin-right: 25px;\n  font-weight: 700;\n  text-transform: uppercase;\n  color: #0282f9;\n}\n@media screen and (max-width: 632px) {\n.footer .social__text[data-v-61a7c374] {\n    margin-right: 0;\n    margin-bottom: 10px;\n}\n}\n@media screen and (max-width: 542px) {\n.footer .social__text[data-v-61a7c374] {\n    margin-top: 25px;\n}\n}\n.footer .social__link[data-v-61a7c374] {\n  margin-right: 15px;\n  text-decoration: none;\n}\n.footer .social__link[data-v-61a7c374]:last-child {\n  margin-right: 0;\n}\n.footer .social__link img[data-v-61a7c374] {\n  transition: all ease-in 0.2s;\n  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);\n  border-radius: 100%;\n}\n.footer .social__link img[data-v-61a7c374]:hover {\n  transform: scale(1.1);\n  box-shadow: 0px 5px 7px -4px #000000, 3px 3px 7px 3px rgba(0, 0, 0, 0);\n  filter: brightness(1.5);\n}", ""]);
+exports.push([module.i, ".footer[data-v-61a7c374] {\n  background-color: #303030;\n  border-top: solid 17px #0282f9;\n  padding: 30px 0;\n}\n.footer .footer__container[data-v-61a7c374] {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n@media screen and (max-width: 542px) {\n.footer .footer__container[data-v-61a7c374] {\n    flex-direction: column;\n}\n}\n.footer .sign-up a[data-v-61a7c374] {\n  font-size: 17px;\n  text-transform: uppercase;\n  color: #fff;\n  text-decoration: none;\n  padding: 15px 14px;\n  border: 2px solid #0282f9;\n  transition: all ease-in 0.2s;\n}\n.footer .sign-up a[data-v-61a7c374]:hover {\n  background-color: #0282f9;\n}\n.footer .social[data-v-61a7c374] {\n  display: flex;\n  align-items: center;\n}\n@media screen and (max-width: 632px) {\n.footer .social[data-v-61a7c374] {\n    flex-direction: column;\n}\n}\n.footer .social__text[data-v-61a7c374] {\n  margin-right: 25px;\n  font-weight: 700;\n  text-transform: uppercase;\n  color: #0282f9;\n}\n@media screen and (max-width: 632px) {\n.footer .social__text[data-v-61a7c374] {\n    margin-right: 0;\n    margin-bottom: 10px;\n}\n}\n@media screen and (max-width: 542px) {\n.footer .social__text[data-v-61a7c374] {\n    margin-top: 25px;\n}\n}\n.footer .social__link[data-v-61a7c374] {\n  margin-right: 15px;\n  text-decoration: none;\n}\n.footer .social__link[data-v-61a7c374]:last-child {\n  margin-right: 0;\n}\n.footer .social__link img[data-v-61a7c374] {\n  transition: all ease-in 0.2s;\n  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);\n  border-radius: 100%;\n}\n.footer .social__link img[data-v-61a7c374]:hover {\n  transform: scale(1.1);\n  box-shadow: 0px 5px 7px -4px #000000, 3px 3px 7px 3px rgba(0, 0, 0, 0);\n  filter: brightness(1.5);\n}", ""]);
 
 // exports
 
@@ -1601,14 +1601,8 @@ var staticRenderFns = [
           _c("div", [
             _c("a", { staticClass: "social__link", attrs: { href: "" } }, [
               _c("img", {
-                attrs: { src: "'../assets/img/footer-facebook.png' ", alt: "" },
-              }),
-            ]),
-            _vm._v(" "),
-            _c("a", { staticClass: "social__link", attrs: { href: "" } }, [
-              _c("img", {
                 attrs: {
-                  src: "'../assets/img/footer-periscope.png' ",
+                  src: __webpack_require__(/*! ../assets/img/footer-facebook.png */ "./resources/js/assets/img/footer-facebook.png"),
                   alt: "",
                 },
               }),
@@ -1617,7 +1611,7 @@ var staticRenderFns = [
             _c("a", { staticClass: "social__link", attrs: { href: "" } }, [
               _c("img", {
                 attrs: {
-                  src: " '../assets/img/footer-pinterest.png' ",
+                  src: __webpack_require__(/*! ../assets/img/footer-periscope.png */ "./resources/js/assets/img/footer-periscope.png"),
                   alt: "",
                 },
               }),
@@ -1625,13 +1619,28 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("a", { staticClass: "social__link", attrs: { href: "" } }, [
               _c("img", {
-                attrs: { src: " '../assets/img/footer-twitter.png' ", alt: "" },
+                attrs: {
+                  src: __webpack_require__(/*! ../assets/img/footer-pinterest.png */ "./resources/js/assets/img/footer-pinterest.png"),
+                  alt: "",
+                },
               }),
             ]),
             _vm._v(" "),
             _c("a", { staticClass: "social__link", attrs: { href: "" } }, [
               _c("img", {
-                attrs: { src: " '../assets/img/footer-youtube.png' ", alt: "" },
+                attrs: {
+                  src: __webpack_require__(/*! ../assets/img/footer-twitter.png */ "./resources/js/assets/img/footer-twitter.png"),
+                  alt: "",
+                },
+              }),
+            ]),
+            _vm._v(" "),
+            _c("a", { staticClass: "social__link", attrs: { href: "" } }, [
+              _c("img", {
+                attrs: {
+                  src: __webpack_require__(/*! ../assets/img/footer-youtube.png */ "./resources/js/assets/img/footer-youtube.png"),
+                  alt: "",
+                },
               }),
             ]),
           ]),
@@ -14046,6 +14055,61 @@ module.exports = "/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417";
 /***/ (function(module, exports) {
 
 module.exports = "/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b";
+
+/***/ }),
+
+/***/ "./resources/js/assets/img/footer-facebook.png":
+/*!*****************************************************!*\
+  !*** ./resources/js/assets/img/footer-facebook.png ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/footer-facebook.png?1c0a9cd85857c65b5dda6eb2323c0c9c";
+
+/***/ }),
+
+/***/ "./resources/js/assets/img/footer-periscope.png":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/img/footer-periscope.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/footer-periscope.png?0bf7a754516b618b79e5c3fae33ca6da";
+
+/***/ }),
+
+/***/ "./resources/js/assets/img/footer-pinterest.png":
+/*!******************************************************!*\
+  !*** ./resources/js/assets/img/footer-pinterest.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/footer-pinterest.png?bcbf782ba577f34bb0670c066545c2aa";
+
+/***/ }),
+
+/***/ "./resources/js/assets/img/footer-twitter.png":
+/*!****************************************************!*\
+  !*** ./resources/js/assets/img/footer-twitter.png ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/footer-twitter.png?c40913896eaeb6b3bc0ebc7681aaeeb6";
+
+/***/ }),
+
+/***/ "./resources/js/assets/img/footer-youtube.png":
+/*!****************************************************!*\
+  !*** ./resources/js/assets/img/footer-youtube.png ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/footer-youtube.png?5774b31d6ae9d6977890208aa4fcdca5";
 
 /***/ }),
 

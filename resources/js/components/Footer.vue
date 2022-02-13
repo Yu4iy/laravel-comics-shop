@@ -9,19 +9,19 @@
 			<div class="social__text">Folow Us</div>
 			<div>
 				<a class="social__link" href="">
-					<img src="'../assets/img/footer-facebook.png' " alt="">
+					<img src='../assets/img/footer-facebook.png'  alt="">
 				</a>
 				<a class="social__link" href="">
-					<img src="'../assets/img/footer-periscope.png' " alt="">
+					<img src='../assets/img/footer-periscope.png'  alt="">
 				</a>
 				<a class="social__link" href="">
-					<img src=" '../assets/img/footer-pinterest.png' " alt="">
+					<img src= '../assets/img/footer-pinterest.png'  alt="">
 				</a>
 				<a class="social__link" href="">
-					<img src=" '../assets/img/footer-twitter.png' " alt="">
+					<img src= '../assets/img/footer-twitter.png'  alt="">
 				</a>
 				<a class="social__link" href="">
-					<img src=" '../assets/img/footer-youtube.png' " alt="">
+					<img src= '../assets/img/footer-youtube.png'  alt="">
 				</a>
 			</div>
 		</div>
@@ -40,7 +40,7 @@ export default {
 @import '../styles/variables';
 
 .footer{
-	background-color: rgb(51, 51, 51);
+	background-color: $colorFooter;
 	border-top: solid 17px  $brandColor;
 	padding: 30px 0;
 
