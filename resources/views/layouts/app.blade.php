@@ -36,6 +36,7 @@
                     <ul class="navbar-nav mr-auto">
 							<li><a class="nav-link" href="{{route('front')}}">Front</a></li>
 							<li><a class="nav-link" href="{{route('admin.comic.index')}}">Control</a></li>
+							<li><a class="nav-link" href="{{route('admin.comic.create')}}">Create</a></li>
 						</ul>
 
                     <!-- Right Side Of Navbar -->
