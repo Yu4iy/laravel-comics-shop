@@ -23,7 +23,7 @@ Route::middleware('auth')
 	->group(function(){
 		Route::get('/', 'HomeController@index')->name('home');
 		
-		Route::resource('/comic', 'ComicController');
+		Route::resource('/comics', 'ComicController');
 		
 	});
 

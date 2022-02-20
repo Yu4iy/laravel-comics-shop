@@ -90,7 +90,8 @@ class ComicController extends Controller
      */
     public function edit($id)
     {
-        //
+      $comic = Comic::find($id);
+		return view('admin.comics.edit', compact('comic'));
     }
 
     /**
@@ -102,7 +103,35 @@ class ComicController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+$request->validate([
+			'title' => 'required',
+			'description' => 'required',
+			'thumb' => 'required|file|mimes:jpeg,bmp,png',
+			'price' => 'required',
+			'series' => 'required',
+			'type' => 'required',
+			]);
+
+		$data = $request->all();
+
+		$comic = Comic::find($id);
+
+		if($data['title'] == $comic->title){
+			$slug = Str::slug($data['title'], '-');
+					// CREAZIONE DI SLUG UNIVOCO
+			$count = 1;
+			$base_slug = $slug;
+
+			while(Comic::where('slug', $slug)->first()){
+				$slug = $base_slug.'-'.$count;
+				$count++;
+			}
+			$data['slug'] = $slug;
+		}else{
+			$data['slug'] = $comic->slug;
+		}
+		$comic->update($data);
+		return redirect('admin/comics');
     }
 
     /**
@@ -113,6 +142,9 @@ class ComicController extends Controller
      */
     public function destroy($id)
     {
-        //
+      $comic_to_delete = Comic::find($id);
+		$comic_to_delete->delete();
+		Storage::delete($comic_to_delete->thumb);
+		return redirect('admin/comics')->with('status', 'Comic was Removed');
     }
 }
